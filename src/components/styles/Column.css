@@ -1,0 +1,15 @@
+.column {
+  background-color: #f4f5f8;
+  border-radius: 6px;
+  width: 300px; /* You can adjust the width as necessary */
+  min-height: 300px;
+  padding: 10px;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.05); */
+}
+
+.column h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}

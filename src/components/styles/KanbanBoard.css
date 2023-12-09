@@ -1,0 +1,24 @@
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+/* Scrollbar styles */
+.kanban-board::-webkit-scrollbar {
+  height: 8px;
+}
+
+.kanban-board::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.kanban-board::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.kanban-board::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
