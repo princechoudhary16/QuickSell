@@ -6,7 +6,7 @@ import Column from './Column';
 import './styles/KanbanBoard.css';
 
 const groupTickets = (tickets, groupBy) => {
-  // Group tickets by the specified field
+  // Group tickets
   const grouped = tickets.reduce((groups, ticket) => {
     const group = ticket[groupBy] || '0';
     groups[group] = groups[group] || [];
@@ -32,8 +32,7 @@ const KanbanBoard = ({ tickets, groupBy }) => {
   }, [tickets, groupBy]);
 
   const onDragEnd = (result) => {
-    // Add logic to reorder tickets on drag end
-    // This is a placeholder implementation
+    
   };
 
   if (!columns || typeof columns !== 'object') {
