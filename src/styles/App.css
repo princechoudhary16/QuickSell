@@ -13,44 +13,43 @@
   padding: 10px;
   margin-bottom: 10px;
 }
-/* styles/App.css */
 
 .app .controls {
-  background: #fff; /* White background */
-  border-radius: 8px; /* Rounded corners */
+  background: #fff; 
+  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-color: #f4f5f8;
-  width: fit-content; /* Fit the content width */
-  padding: 8px; /* Padding inside the controls */
-  margin: 10px; /* Margin around the controls */
+  width: fit-content; 
+  padding: 8px; 
+  margin: 10px; 
 }
 
 .app .controls label {
-  font-weight: bold; /* Bold label text */
-  margin-right: 10px; /* Space after the label */
+  font-weight: bold; 
+  margin-right: 10px; 
 }
 
 .app .controls select {
-  border: 1px solid #cccccc; /* Light grey border */
-  border-radius: 4px; /* Slightly rounded corners for the select */
-  padding: 5px 10px; /* Padding inside the select */
-  font-size: 1rem; /* Standard font size */
-  color: #333333; /* Dark grey text color */
-  box-shadow: none; /* No shadow by default */
-  -webkit-appearance: none; /* Remove default styling on Webkit browsers */
-  -moz-appearance: none; /* Remove default styling on Mozilla browsers */
-  appearance: none; /* Remove default styling */
-  background-image: url('data:image/svg+xml;utf8,<svg fill="%23000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>'); /* SVG arrow icon */
-  background-repeat: no-repeat; /* Do not repeat the background image */
-  background-position: right 10px top 50%; /* Position the arrow icon */
-  background-size: 12px; /* Size of the arrow icon */
+  border: 1px solid #cccccc; 
+  border-radius: 4px; 
+  padding: 5px 10px;
+  font-size: 1rem; 
+  color: #333333; 
+  box-shadow: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  appearance: none; 
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat; 
+  background-position: right 10px top 50%; 
+  background-size: 12px; 
 }
 
 .app .controls select:focus {
-  outline: none; /* Remove default focus outline */
-  border-color: #000000; /* Dark border on focus */
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Shadow effect on focus */
+  outline: none; 
+  border-color: #000000; 
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 
