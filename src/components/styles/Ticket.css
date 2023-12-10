@@ -1,20 +1,4 @@
-/* .ticket {
-  background-color: #fff;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: box-shadow 0.3s ease-in-out;
-}
 
-.ticket:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.ticket p {
-  margin: 0;
-  font-weight: 500;
-} */
 .ticket {
   background-color: #fff;
   padding: 16px;
@@ -64,7 +48,7 @@
 }
 
 .ticket-type {
-  background-color: #fff; /* Placeholder color for the type tag */
+  background-color: #fff; 
   border-radius: 4px;
   border-color: #bfc2c9;
   border-style: solid;
@@ -76,9 +60,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #bfc2c9; /* Change this to the color you want for the circle */
-  margin-right: 8px; /* Adjust as necessary for spacing */
-  display: inline-block; /* Required to display the circle */
+  background-color: #bfc2c9; 
+  margin-right: 8px; 
+  display: inline-block;
 }
-
-/* Add classes for icons here, e.g. `.icon-feature-request` */
