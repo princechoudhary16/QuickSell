@@ -8,12 +8,12 @@ const App = () => {
   const [groupBy, setGroupBy] = useState('status');
 
   useEffect(() => {
-    // Replace with your API call
+    // Replacing with API call
     const fetchTickets = async () => {
       try {
         const response = await fetch('https://api.quicksell.co/v1/internal/frontend-assignment');
         const data = await response.json();
-        setTickets(data.tickets); // Assuming the response has a 'tickets' field
+        setTickets(data.tickets);
       } catch (error) {
         console.error('Failed to fetch tickets:', error);
       }
